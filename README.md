@@ -170,7 +170,7 @@ Step	Prompt
 Prompt: "Generate a young female voice with a Spanish accent speaking English: 'This place feels like home.'"
 Result: Natural tone, accurate accent, and emotionally appropriate voice rendering."
 
-RESULT:
+# RESULT:
 Thus, the experiment effectively explored various prompting techniques for audio generation, revealing that
 structured and descriptive prompts significantly improve output quality. The approach enhanced control
 over tone, style, and content in AI-generated audio.
