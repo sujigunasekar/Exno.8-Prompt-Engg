@@ -101,7 +101,7 @@ o Evaluate the initial outputs and adjust prompts to refine the result.
 o Use hybrid prompts for context-aware generation (e.g., provide a text description
 along with a short audio snippet).
 
-Conclusion
+## Conclusion
 Different AI tools respond uniquely to prompts based on their design and training. By experimenting
 with textual, conditional, structured, and stylistic prompts, users can optimize their inputs for specific
 outcomes. Tools like OpenAI's Jukebox, Google's AudioLM, and Meta's MusicGen offer varied
