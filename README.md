@@ -2,6 +2,7 @@
 ## AIM:
 Explore how various prompting techniques can be used to generate and manipulate audio content (e.g., music,
 sound effects, voice narration) using AI model
+
 ## AI Toolsfor Audio Generation:
 ### 1. OpenAI's Jukebox:
 A neural network for generating music in various styles and genres, complete with
@@ -15,10 +16,11 @@ Excels in audio continuation and context-aware generation.
 ### 3. Meta's MusicGen:
 Designed for music generation based on textual descriptions. o Allows users to
 specify genres, instruments, mood, and more.
+
 ## Prompting Techniques
 ### 1. Textual Descriptions
-• Description Type: Text prompts specifying genre, mood, instruments, or context.
-• Example:
+Description Type: Text prompts specifying genre, mood, instruments, or context.
+Example:
 
 Music: "A soothing classical piano piece for relaxation."
 
@@ -113,14 +115,8 @@ Voice Narration	"Read this line in an expressive elderly male voice with a Briti
 Music Generation	"Generate a moody lo-fi beat with soft piano, vinyl crackle, and a relaxed tempo, suitable for late-night study."
 Sound Effect	"Create the ambiance of a futuristic spaceship interior, with low engine hums, beeping consoles, and distant metallic clinks."
 
-### B. Generated Outputs
-| Prompt Type      | Output Filename                   | Description                                                                                                    |
-| ---------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Voice Narration  | `ancient_hall_voiceover.wav`      | Deep, slightly raspy voice with British inflection and slow, dramatic delivery—evoking gravity and nostalgia.  |
-| Music Generation | `lofi_midnight_piano.wav`         | Smooth lo-fi loop with gentle piano chords, subtle background textures, and mellow beats—ideal for relaxation. |
-| Sound Effect     | `spaceship_interior_ambience.wav` | High-fidelity ambient loop featuring sci-fi sounds—dull engine hums, echoing clicks, and console beeps.        |
 
-### C. Observations and Insights
+### B. Observations and Insights
 General Observations:
 
 Voice generation benefited from detailed vocal traits like age and accent.
@@ -137,7 +133,7 @@ Music quality was enhanced by defining genre, mood, and instrumentation.
 
 Realism in ambient effects came from combining environmental layers (e.g., "beeps", "hums", "clinks").
 
-### D. Optimization Report
+### C. Optimization Report
 Best Practices:
 
 ✅ Be Specific: Define emotion, tone, instrument, or environment.
