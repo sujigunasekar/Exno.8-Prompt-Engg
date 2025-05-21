@@ -5,7 +5,8 @@ sound effects, voice narration) using AI model
 ## AI Toolsfor Audio Generation:
 ### 1. OpenAI's Jukebox:
 o A neural network for generating music in various styles and genres, complete with
-vocals. o Uses prompts like artist names, lyrics, and genre descriptions to steer the
+vocals. 
+o Uses prompts like artist names, lyrics, and genre descriptions to steer the
 generation.
 ### 2. Google's AudioLM:
 o Focuses on generating coherent and high-quality audio, including music and
@@ -17,18 +18,16 @@ specify genres, instruments, mood, and more.
 ## Prompting Techniques
 ### 1. Textual Descriptions
 • Description Type: Text prompts specifying genre, mood, instruments, or context.
-
 • Example:
+
 o Music: "A soothing classical piano piece for relaxation."
 
 o Sound Effects: "Rainfall with distant thunder."
 
-o Speech: "A motivational speech in an authoritative male voice."
-
  Tool Compatibility:
 o Jukebox: Works well with specific artist and genre references.
 o AudioLM: Handles descriptive contexts for speech and audio synthesis.
-o MusicGen: Excels at generating music based on detailed textual prompts.
+o Suno: Excels at generating music based on detailed textual prompts.
 
 ### 2. Conditional Prompts
 • Description Type: Inputs with explicit conditioning on existing audio or textual data.
@@ -37,10 +36,8 @@ o MusicGen: Excels at generating music based on detailed textual prompts.
 o Input an acoustic snippet, "Continue this melody with orchestral elements."
 
 • Tool Compatibility:
-o AudioLM: Strong for seamless continuation of input audio.
 
-Saveetha Engineering College
-o Jukebox: Can match audio styles for music extensions.
+o Suno: Can match audio styles for music extensions.
 
 ### 3. Structured Prompts
 • Description Type: Prompts structured with key-value pairs or templates.
@@ -54,15 +51,13 @@ code
 }
 
 • Tool Compatibility:
-o MusicGen: Responds well to structured prompts with detailed elements. o
-AudioLM: Accepts high-level structure for audio synthesis.
+o suno: Responds well to structured prompts with detailed elements. 
 
 ### 4. Stylistic Prompts
 • Description Type: Prompts emphasizing artistic or performance style.
 
 • Example:
 o "A 70s disco beat with funky basslines and electric guitar."
-o "Speech in a Shakespearean theatrical tone."
 
 • Tool Compatibility:
 o Jukebox: Ideal for music style replication.
@@ -72,8 +67,8 @@ o AudioLM: Handles stylistic variations in speech synthesis.
 • Description Type: Refining initial prompts based on feedback or partial results.
 
 • Example:
-o Initial: "Create an ambient track with wind sounds." o Refined: "Add a soft
-flute melody to the ambient wind track."
+o Initial: "Create an ambient track with wind sounds." 
+o Refined: "Add a soft flute melody to the ambient wind track."
 
 • Tool Compatibility:
 o Applicable across Jukebox, AudioLM, and MusicGen for iterative generation.
